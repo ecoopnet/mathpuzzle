@@ -18,19 +18,14 @@ class Q1 : Base {
   }
 
     private func isSatisfy(value:Int, base:Int) -> Bool {
-        let v = toS(value, base:base)
-        return v == v.re
+        let numbers = split(value,base:base)
+        for var i = 0; i <= numbers.count / 2; i++ {
+            if numbers[i] != numbers[numbers.count - 1 - i] {
+                return false
+            }
+        }
+        return true
     }
-
-//    private func isSatisfy(value:Int, base:Int) -> Bool {
-//        let numbers = split(value,base:base)
-//        for var i = 0; i <= numbers.count / 2; i++ {
-//            if numbers[i] != numbers[numbers.count - 1 - i] {
-//                return false
-//            }
-//        }
-//        return true
-//    }
 
     private func toS(value:Int, base:Int) -> String {
         let numbers = split(value, base:base)

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9C3BA3027F91D48132C59EE /* Q3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CCF40035A52CB9E0B84191 /* Q3.swift */; };
 		D9C7055A29D3DA1AA925A2AB /* Q2.js in Sources */ = {isa = PBXBuildFile; fileRef = D9C96FC7172F87F04302716A /* Q2.js */; };
 		D9C7548FBA9176CFAAA9CB79 /* Q1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CC4963A7DDDA4C554C0770 /* Q1.swift */; };
 		D9CB09782482009876E26FDB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C6BDAFEFB34EE7D0724055 /* main.swift */; };
@@ -31,6 +32,7 @@
 		D9C6BDAFEFB34EE7D0724055 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D9C96FC7172F87F04302716A /* Q2.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Q2.js; sourceTree = "<group>"; };
 		D9CC4963A7DDDA4C554C0770 /* Q1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Q1.swift; sourceTree = "<group>"; };
+		D9CCF40035A52CB9E0B84191 /* Q3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Q3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				D9CC4963A7DDDA4C554C0770 /* Q1.swift */,
 				D9C231F3E372A8A8D51D1E01 /* Base.swift */,
 				D9C96FC7172F87F04302716A /* Q2.js */,
+				D9CCF40035A52CB9E0B84191 /* Q3.swift */,
 			);
 			path = mathpazzle;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 				D9C7548FBA9176CFAAA9CB79 /* Q1.swift in Sources */,
 				D9CF88A8A58E73F7B768F843 /* Base.swift in Sources */,
 				D9C7055A29D3DA1AA925A2AB /* Q2.js in Sources */,
+				D9C3BA3027F91D48132C59EE /* Q3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

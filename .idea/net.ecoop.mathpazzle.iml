@@ -2,8 +2,9 @@
 <module type="CIDR_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/mathpazzle/Q1.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/mathpazzle/Base.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mathpazzle/Q3.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mathpazzle/Q1.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/mathpazzle/Q2.js" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/mathpazzle/main.swift" isTestSource="false" />
     </content>
